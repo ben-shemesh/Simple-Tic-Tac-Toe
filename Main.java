@@ -1,10 +1,14 @@
 package tictactoe;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.print("X O X\n");
-        System.out.print("O X X\n");
-        System.out.print("X O O");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("---------");
+        System.out.println("|" + scanner.nextLine() +"|");
+
+        System.out.printf("");
 
     }
 }
